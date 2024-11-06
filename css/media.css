@@ -1,0 +1,172 @@
+@media (max-width: 1100px) {
+    .team__info {
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        display: none;
+    }
+    .top-section,
+    .service, .about ,
+    .team {
+        margin-bottom: 80px;
+    }
+    .subtitle {
+        margin-bottom: 30px;
+    }
+
+    .about__img {
+        display: none;
+    }
+    .container--about {
+        height: auto;
+        padding: 50px 15px;
+    }
+    .about__wrap {
+        max-width: 100%;
+    }
+    .team__top {
+        margin-bottom: 30px;
+    }
+    .team__info {
+        display: block;
+    }
+    .team__name {
+        margin-bottom: 10px;
+    }
+    .quote {
+        padding: 50px 0;
+    }
+    .quote .container {
+        max-width: 630px;
+    }
+    .container--advertising {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .advertising__title {
+        font-size: 21px;
+    }
+    .advertising__link {
+        padding: 14px 59px;
+        font-size: 16px;
+    }
+    .footer__desc {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-section,
+    .service, .about,
+    .team {
+        margin-bottom: 30px;
+    }
+    .top-section__title {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+    .top-section__title span {
+        font-size: 35px;
+    }
+    .title--main {
+        font-size: 26px;
+    }
+    .service__inner , .team__inner,
+    .blog__card {
+        display: block;
+        margin: 0 auto 20px;
+        width: 100%;
+        max-width: 400px;
+    }
+    .about__text {
+        margin-bottom: 30px;
+    }
+    .about__more {
+        text-align: center;
+    }
+    .about__link:not(:last-child) {
+        margin-right: 10px;
+    }
+    .about__link {
+        margin: 10px;
+    }
+    .team__wrap,
+    .blog__inner {
+        display: block;
+    }
+
+    .quote__photo {
+        position: static;
+        transform: translate(0, 0);
+        margin: 0 auto 20px;
+    }
+
+    .quote__inner {
+        display: block;
+    }
+    .quote__inner {
+        padding: 25px;
+    }
+    .quote__name {
+        position: static;
+        margin-top: 20px;
+    }
+    .quote {
+        margin-bottom: 30px;
+    }
+
+    .advertising__inner {
+        display: block;
+        height: auto;
+        padding: 15px;
+    }
+
+    .advertising__title {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .advertising__link {
+        display: block;
+        text-align: center;
+        max-width: 320px;
+    }
+
+    .blog {
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        padding: 115px 0 66px;
+    }
+
+    .footer__wrap {
+        display: block;
+        margin: 0;
+    }
+
+    .footer__inner {
+        width: 100%;
+        padding: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .footer__menu {
+        columns: 1;
+    }
+
+    .footer__title {
+        margin-bottom: 25px;
+    }
+
+    .footer__social {
+        position: static;
+        max-width: 320px;
+        text-align: center;
+    }
+
+}
